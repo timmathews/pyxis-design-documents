@@ -34,4 +34,4 @@ The "how" of this is not defined yet. Likely we will store the configuration on 
 Data Streams
 ------------
 
-Data streams are encoded with [MessagePack](https://github.com/msgpack/msgpack) and pushed around by ZeroMQ in a Pub-Sub configuration with topics. Naturally, web clients will connect with WebSockets. There should be a topic per PGN, but also topics for common groups of PGNs, topics for synthetic data that doesn't exist as a NMEA 2000 PGN, and potentially custom topics.
+See data-definition.md
